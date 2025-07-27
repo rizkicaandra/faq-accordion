@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/rizkicaandra/faq-accordion)
-- Live Site URL: [Add live site URL here](https://clever-beignet-86ec5e.netlify.app)
+- Solution URL: [Github](https://github.com/rizkicaandra/faq-accordion)
+- Live Site URL: [Live](https://clever-beignet-86ec5e.netlify.app)
 
 ## My process
 
