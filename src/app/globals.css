@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Variable font supports a range */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --purple-950: #301534;
+  --purple-600: #8b6990;
+  --purple-100: #f8eeff;
+  --violet: #ad28eb;
+}
+
+@theme {
+  /* spacing */
+  --spacing-7.5: 1.875rem;
+  --spacing-32.5: 8.125rem;
+  --spacing-41.75: 10.438rem;
+  --spacing-56.25: 14.063rem;
+  --spacing-58: 14.5rem;
+  --spacing-81.75: 20.438rem;
+  --spacing-150: 37.5rem;
+
+  /* colors */
+  --color-white: var(--white);
+  --color-black: var(--black);
+  --color-purple-950: var(--purple-950);
+  --color-purple-600: var(--purple-600);
+  --color-purple-100: var(--purple-100);
+  --color-violet: var(--violet);
+
+  /* text */
+  --text-preset-1: 3.5rem;
+  --text-preset-1--line-height: 4.125rem;
+  --text-preset-1--letter-spacing: 0rem;
+  --text-preset-1--font-weight: 700;
+
+  --text-preset-2: 1.125rem;
+  --text-preset-2--line-height: 1.313rem;
+  --text-preset-2--letter-spacing: 0rem;
+  --text-preset-2--font-weight: 500;
+
+  --text-preset-3: 1rem;
+  --text-preset-3--line-height: 1.5rem;
+  --text-preset-3--letter-spacing: 0rem;
+  --text-preset-3--font-weight: 400;
+
+  --text-preset-1-mobile: 2rem;
+  --text-preset-1-mobile--line-height: 1.2;
+  --text-preset-1-mobile--letter-spacing: 0rem;
+  --text-preset-1-mobile--font-weight: 700;
+
+  --text-preset-2-mobile: 1rem;
+  --text-preset-2-mobile--line-height: 1.15;
+  --text-preset-2-mobile--letter-spacing: 0rem;
+  --text-preset-2-mobile--font-weight: 600;
+
+  --text-preset-3-mobile: 0.875rem;
+  --text-preset-3-mobile--line-height: 1.5;
+  --text-preset-3-mobile--letter-spacing: 0rem;
+  --text-preset-3-mobile--font-weight: 400;
+}
+
+body {
+  background-color: var(--purple-100);
+  color: var(--purple-950);
+  font-family: 'Work Sans', sans-serif;
+  overflow-y: scroll;
+}
